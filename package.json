@@ -1,0 +1,12 @@
+{
+  "name": "quicksort-cniemitalo",
+  "version": "1.0.0",
+  "description": "Implement an iterative (no recursive calls) version of quicksort. Use the\r template I've provided in `code.js`. Test your new function; I've provided some\r basic testing code that uses [jsverify](https://jsverify.github.io/) in\r `code.test.js`.",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
