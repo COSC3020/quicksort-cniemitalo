@@ -14,7 +14,7 @@ Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
 
-The time complexity for my implementation of the iterative quicksort depends mostly on the sort function, which picks the first position of the array as the pivot and then moves it to the correct spot. In the worst case, it has to move every element every time, so it essentially runs in $\Theta(n^2)$. This is the most dominant term of the entire algorithm, as the the rest of the code loops through the remaining portions of the array, which would be linear time complexity. Therefore, the worst case time complexity would be $\Theta(n^2)$
+The time complexity for my implementation of the iterative quicksort depends mostly on the sort function, which picks the first position of the array as the pivot and then moves it to the correct spot. In the worst case, it has to move every element through the entire array, so it essentially runs in $\Theta(n^2)$. This is the most dominant term of the entire algorithm, as the the rest of the code loops through the remaining portions of the array, which would be linear time complexity. Therefore, the worst case time complexity would be $\Theta(n^2)$
 
 ### Sources and Plagiarism 
 
